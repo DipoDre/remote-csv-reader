@@ -1,0 +1,21 @@
+{
+  "name": "remote-csv-reader",
+  "version": "1.0.0",
+  "description": "Reads a remote csv file and displays selected fields",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "csv",
+    "node"
+  ],
+  "author": "DipoDre",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.20"
+  }
+}
